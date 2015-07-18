@@ -1,0 +1,88 @@
+{
+    "appKeys": {
+        "SETTINGS_BT_VIBE": 3,
+        "SETTINGS_HOURLY_VIBE": 2,
+        "WEATHER_CONDITIONS": 1,
+        "WEATHER_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "grakovne@yandex.ru",
+    "longName": "Vic4884",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[ -~]",
+                "file": "fonts/digital-7 (mono).ttf",
+                "name": "TIME_FONT_54",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ -~]",
+                "file": "fonts/digital-7 (mono).ttf",
+                "name": "BATTERY_FONT_12",
+                "type": "font"
+            },
+            {
+                "file": "images/sun.png",
+                "name": "SUN",
+                "type": "png"
+            },
+            {
+                "file": "images/storm.png",
+                "name": "STORM",
+                "type": "png"
+            },
+            {
+                "file": "images/snow.png",
+                "name": "SNOW",
+                "type": "png"
+            },
+            {
+                "file": "images/rain.png",
+                "name": "RAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/cloud.png",
+                "name": "CLOUDS",
+                "type": "png"
+            },
+            {
+                "file": "images/Bluetooth_NO.png",
+                "name": "NO_BT_PICTURE",
+                "type": "png"
+            },
+            {
+                "file": "images/Bluetooth.png",
+                "name": "BT_PICTURE",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[ -~]",
+                "file": "fonts/digital_counter_7.ttf",
+                "name": "DATE_FONT_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9+-]",
+                "file": "fonts/DS-DIGI.TTF",
+                "name": "WEATHER_FONT_42",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Vic4884",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "6c5b2ec5-b6a0-4a53-9646-d19770812900",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
